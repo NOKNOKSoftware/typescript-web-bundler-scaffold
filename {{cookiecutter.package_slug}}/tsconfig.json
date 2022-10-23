@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+
+        {%- if cookiecutter.jsx_scheme == "react" -%}
+        "jsx": "react",
+        {%- endif -%}
+
+        {%- if cookiecutter.jsx_scheme == "preact" -%}
+        "jsx": "react",
+        {%- endif -%}
+
+        {%- if cookiecutter.jsx_scheme == "wp-element" -%}
+        "jsx": "react",
+        "jsxFactory": "wp.element.createElement",
+        "jsxFragmentFactory": "Fragment",
+        {%- endif -%}
+
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "lib": [ "es6", "DOM" ],
+        "target": "es6"
+    }
+}

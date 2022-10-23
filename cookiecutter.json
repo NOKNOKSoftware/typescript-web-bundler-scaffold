@@ -1,0 +1,5 @@
+{
+    "package_slug": "typescript-web-bundler-scaffold",
+    "jsx_scheme": ["none", "react", "preact", "wp-element"],
+    "use_post_css": ["yes", "no"]
+}

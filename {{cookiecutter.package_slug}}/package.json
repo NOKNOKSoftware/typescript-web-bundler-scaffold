@@ -1,0 +1,4 @@
+{
+    "name": "{{cookiecutter.package_slug}}",
+    "scripts": {}
+}
