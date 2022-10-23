@@ -1,5 +1,5 @@
-# Docker Wordpress Env Scaffold
-Automatic scaffolding for a new docker WordPress environment based on [docker-nginx-dev-env] (https://github.com/NOKNOKSoftware/docker-nginx-dev-env) (Check link for additional documentation)
+# Typescript Web Bundler Scaffold
+Automatic scaffolding for a typescript web bundles powered by gulp/babel/typescript. Geared towards WordPress development
 
 ## Prerequists:
 Make sure you install the following
