@@ -1,6 +1,3 @@
-
-from operator import truediv
-from shelve import Shelf
 import subprocess
 
 schema_dependencies = {
