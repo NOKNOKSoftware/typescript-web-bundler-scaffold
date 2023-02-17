@@ -32,7 +32,7 @@ python -m cookiecutter https://github.com/NOKNOKSoftware/typescript-web-bundler-
   - react - Typical react scheme, good for scripts that aren't only the public frontend
   - preact -  React scheme but preact is used for lower bundle sizes (better for public frontends)
   - wp-element - For use with WordPress admin frontend only, uses built in WordPress scripts
-- ```use_post_css` - Allows importing of css files via typescript imports.
+- ```use_post_css``` - Allows importing of css files via typescript imports.
 
 ## Gulp Commands
 - ```gulp build``` - Bundle files and export js to ```dist/``` directory
